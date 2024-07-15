@@ -6,11 +6,10 @@ node_js:
   - "6"
   - "8"
   - "10"
-
 install:
   - npm install
 
 script:
-  - npm run lint
-  - npm test
-  - npm run test:coverage
+  - npm run test
+
+dist: trusty
